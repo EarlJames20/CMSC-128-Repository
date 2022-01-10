@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: 'Zilla Slab';
+}
+
+.navbar {
+  background: #FFF3C2;
+  padding: 1em;
+}
+
+.navbar .logo {
+  font-family: 'Sacramento';
+  color: brown;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.navbar img {
+  padding-top: 0.8em;
+  width: 2em;
+  height: 2em;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+.title-pic {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 2em 2em;
+}
+
+div.header {
+  background-color: #fdbd8f;
+  font-size: 1.4em;
+  color: brown;
+  padding-top: 0.01em;
+  padding-bottom: 0.2em;
+  padding-left: 1.7em;
+}
+
+div.subheader {
+  background-color: #fdbd8f;
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 1rem;
+  color: chocolate;
+  padding-top: 0.01em;
+  padding-bottom: 0.2em;
+}
+
+div.newsletter-header {
+  background-color: #fdbd8f;
+  color: chocolate;
+  letter-spacing: 0.2rem;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1.4em;
+  width: 54%;
+}
+
+div.content-left {
+  font-size: 1.2em;
+  width: 45%;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  margin-left: 4em;
+}
+
+div.content-right {
+  font-size: 1.2em;
+  width: 45%;
+  margin-bottom: 1em;
+  margin-right: 5em;
+  text-align: right;
+  float: right;
+}
+
+div.content-center {
+  font-size: 1.2em;
+  width: 85%;
+  margin: auto;
+  text-align: justify;
+}
+
+h2.center {
+  text-align: center;
+}
+
+img.img-right {
+  border-style: solid;
+  border-color: chocolate;
+  border-width: 5px;
+  width: 22%;
+  margin-top: 7em;
+  margin-right: 4em;
+  float: right;
+}
+
+img.img-left {
+  border-style: solid;
+  border-color: chocolate;
+  border-width: 5px;
+  width: 27%;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  margin-left: 8em;
+}
+
+img.img-center {
+  border-style: solid;
+  border-color: chocolate;
+  border-width: 5px;
+  width: 85%;
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+section.prose-sec {
+  text-align: center;
+}
+
+h1.header {
+  font-family: 'Montserrat';
+}
+
+label {
+  font-family: 'Montserrat';
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+}
+
+input, textarea {
+  width: 55%;
+  padding: .8em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.send-message {
+  background-color: chocolate;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.2em;
+  border: none;
+  margin-bottom: 5em;
+  border-radius: 5em;
+  display: inline-block;
+  padding: .8em 2em;
+  cursor: pointer;
+}
+
+nav.menu-display {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  top: 0;
+  right: 0;
+  background: #fdbd8f;
+  height: 100vh;
+  padding: 1em;
+}
+
+nav ul.primary-nav {
+  margin-top: 4em;
+}
+
+nav li a {
+  color: brown;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  font-size: 1.5em;
+  text-align: right;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+.exit {
+  float: right;
+  margin: 0.5em;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

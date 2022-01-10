@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nothing+You+Could+Do&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");
+
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: 'Zilla Slab';
+  font-size: 1.4em;
+  color: brown;
+}
+
+label {
+  font-size: 1.2em;
+  margin-bottom: .5em;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 55%;
+  padding: .3em .3em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+  color: brown;
+  background-color: #fdbd8f;
+  padding: .4em .8em;
+  border-color: brown;
+  border-width: .1em;
+  margin-top: 1em;
+  border-radius: 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+a {
+  color: brown;
+  font-weight: bold;
+}
+
+section {
+  margin: 3em 18em 3em 18em;
+  padding: 1em 1em;
+  padding-left: 2.5em;
+  background-color: #fdbd8f;
+  text-align: left;
+}
+
+.submit {
+  background-color: chocolate;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.2em;
+  border: none;
+  margin-bottom: 5em;
+  border-radius: 5em;
+  display: inline-block;
+  padding: .8em 2em;
+  cursor: pointer;
+}
+
+.eye{
+  position: absolute;
+  margin-left: .3em;
+}
+
+#hide-on{
+  display: none;
+  cursor: pointer;
+}
+
+#hide-off{
+  cursor: pointer;
+}
+
