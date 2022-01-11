@@ -4,7 +4,7 @@
     $con = connection();
 
     if(isset($_SESSION['username'])){
-        if((time() - $_SESSION['currenttime']) > 5){
+        if((time() - $_SESSION['currenttime']) > 300){
             header("Location:sessionexpiry.php");
         }else{
             $_SESSION['currenttime'] = time();
