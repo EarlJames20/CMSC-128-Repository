@@ -48,6 +48,7 @@
                         <li><a href="#">Blogs & More</a></li>
                         <li><a href="#">Community</a></li>
                         <li><a href="#">About Us</a></li>
+                        <li><a href="#">Donate</a></li>
                         <li><a href="logout.php">Log out</a></li>
                     </ul>
                 </nav>
